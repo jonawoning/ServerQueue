@@ -1,0 +1,17 @@
+# Add gitignore files for spigot minecraft plugin
+# https://www.toptal.com/developers/gitignore/api/spigot,minecraftplugin
+# Created on: 2023-10-05T12:00:00.000Z
+# Edit at: https://www.toptal.com/developers/gitignore?templates=spigot,minecraftplugin
+# --------------------------------------------------
+
+# target
+/target/
+/build/
+/bin/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+.idea
+serverqueue.iml
+.idea/misc.xml
