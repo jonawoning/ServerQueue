@@ -5,7 +5,6 @@ import nl.jouwapplicatie.serverQueue.System.Bungeecord;
 import nl.jouwapplicatie.serverQueue.data.Queue;
 import nl.jouwapplicatie.serverQueue.data.User;
 import org.bukkit.Bukkit;
-import org.bukkit.Server;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
