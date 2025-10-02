@@ -13,6 +13,7 @@ public class Config {
     public String Queue_Move;
     public String Queue_Done;
     public String Bypass_Perm;
+    public String PriorityPermission = "queue.priority";
     public String pluginversion;
     public List<String> servers;
     public boolean system;
@@ -29,6 +30,7 @@ public class Config {
         this.Queue_Added = ChatColor.translateAlternateColorCodes('&', ServerQueue.instance.c.getString("Queue_Added"));
         this.Queue_Move = ChatColor.translateAlternateColorCodes('&', ServerQueue.instance.c.getString("Queue_Move"));
         this.Queue_Done = ChatColor.translateAlternateColorCodes('&', ServerQueue.instance.c.getString("Queue_Done"));
+        this.PriorityPermission = ServerQueue.instance.c.getString("Priority_Permission");
         this.Bypass_Perm = ServerQueue.instance.c.getString("Bypass_Perm");
         final PluginDescriptionFile pdf = ServerQueue.instance.getDescription();
         this.pluginversion = pdf.getVersion();

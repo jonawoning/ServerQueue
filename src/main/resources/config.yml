@@ -1,0 +1,28 @@
+###########################
+# Plugin made by:         #
+# Jona / Pottenmaker      #
+# Dicord: Jona#7797       #
+# Open for new            #
+# challanges!             #
+# This plugin is made for #
+# fun, so respect it!     #
+###########################
+
+# Prefix of the plugin:
+Prefix: '&c&lQueue &8&l> &7'
+
+# Queue messages:
+Queue_Added: '&7You have been added to the queue on position &c#%position%&7/&c%maxpos%&7!' #-> Placeholders: %position% and %maxpos%.
+Queue_Move: '&7You are now on position &c#%position%&7/&c%maxpos% &7of the queue.'
+Queue_Done: '&aYou are now out of the queue, send to an server!'
+
+# Servers that are being marked to have a queue.
+Servers:
+  - 'Kingdom'
+  - 'HCF'
+
+# Give a player a queue priority:
+PriorityPermission: 'queue.priority'
+
+# The permission to bypass the queue:
+Bypass_Perm: 'queue.bypass'
