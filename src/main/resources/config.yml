@@ -22,7 +22,7 @@ Servers:
   - 'HCF'
 
 # Give a player a queue priority:
-PriorityPermission: 'queue.priority'
+Priority_Permission: 'queue.priority'
 
 # The permission to bypass the queue:
 Bypass_Perm: 'queue.bypass'
